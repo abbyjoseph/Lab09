@@ -1,0 +1,61 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Oct 22 11:31:30 2020
+# Process ID: 2772
+# Current directory: C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4944 C:\Users\abby_joseph1\Documents\GitHub\Lab09\Lab09\Lab09.xpr
+# Log file: C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09/vivado.log
+# Journal file: C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09/Lab09.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+source register_test.tcl
+close_sim
+launch_simulation
+source register_test.tcl
+close_sim
+close [ open C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/alu.sv w ]
+add_files C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/alu.sv
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/alu_test.sv w ]
+add_files -fileset sim_1 C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/alu_test.sv
+update_compile_order -fileset sim_1
+launch_simulation
+source register_test.tcl
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top alu_test [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source alu_test.tcl
+close_sim
+close [ open C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/top_lab9.sv w ]
+add_files C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/top_lab9.sv
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/basys3_lab9.sv
+update_compile_order -fileset sim_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top basys3_lab9 [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+source basys3_lab9.tcl
+close_sim
+launch_simulation
+source basys3_lab9.tcl
