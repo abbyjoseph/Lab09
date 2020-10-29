@@ -1,11 +1,7 @@
 0.7
-2020.1
-May 27 2020
-20:09:33
-C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
-C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/alu.sv,1603389403,systemVerilog,,C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/register.sv,,alu,,,,,,,,
-C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/alu_test.sv,1603388352,systemVerilog,,,,alu_test,,,,,,,,
-C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/basys3_lab9.sv,1603382620,systemVerilog,,,,basys3_lab9,,,,,,,,
-C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/register.sv,1603383714,systemVerilog,,C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/top_lab9.sv,,register,,,,,,,,
-C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/register_test.sv,1603385027,systemVerilog,,,,register_test,,,,,,,,
-C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/top_lab9.sv,1603388977,systemVerilog,,C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/basys3_lab9.sv,,top_lab9,,,,,,,,
+2020.1.1
+Aug  5 2020
+23:19:43
+C:/Users/aajos/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim/glbl.v,1603409176,verilog,,,,glbl,,,,,,,,
+C:/Users/aajos/Documents/GitHub/Lab09/systemverilogcode/alu.sv,1603409177,systemVerilog,,C:/Users/aajos/Documents/GitHub/Lab09/systemverilogcode/alu_test.sv,,alu,,,,,,,,
+C:/Users/aajos/Documents/GitHub/Lab09/systemverilogcode/alu_test.sv,1603413484,systemVerilog,,,,alu_test,,,,,,,,

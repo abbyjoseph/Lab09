@@ -1,248 +1,109 @@
 #-----------------------------------------------------------
-# Vivado v2020.1 (64-bit)
-# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
-# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-# Start of session at: Thu Oct 22 11:31:30 2020
-# Process ID: 2772
-# Current directory: C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4944 C:\Users\abby_joseph1\Documents\GitHub\Lab09\Lab09\Lab09.xpr
-# Log file: C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09/vivado.log
-# Journal file: C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09\vivado.jou
+# Vivado v2020.1.1 (64-bit)
+# SW Build 2960000 on Wed Aug  5 22:57:20 MDT 2020
+# IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
+# Start of session at: Thu Oct 22 18:28:05 2020
+# Process ID: 5152
+# Current directory: C:/Users/aajos/Documents/GitHub/Lab09/Lab09
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17568 C:\Users\aajos\Documents\GitHub\Lab09\Lab09\Lab09.xpr
+# Log file: C:/Users/aajos/Documents/GitHub/Lab09/Lab09/vivado.log
+# Journal file: C:/Users/aajos/Documents/GitHub/Lab09/Lab09\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09/Lab09.xpr
+open_project C:/Users/aajos/Documents/GitHub/Lab09/Lab09/Lab09.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09' since last save.
 Scanning sources...
 Finished scanning sources
-WARNING: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09/Lab09.srcs/sources_1'.
-CRITICAL WARNING: [Board 49-67] The board_part definition was not found for digilentinc.com:basys3:part0:1.1. This can happen sometimes when you use custom board part. You can resolve this issue by setting 'board.repoPaths' parameter, pointing to the location of custom board files. Valid board_part values can be retrieved with the 'get_board_parts' Tcl command.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/Users/aajos/Documents/GitHub/Lab09/Lab09/Lab09.srcs/sources_1', nor could it be found using path 'C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09/Lab09.srcs/sources_1'.
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/XilinxVitis/Vivado/2020.1/data/ip'.
-open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:31 . Memory (MB): peak = 1082.473 ; gain = 0.000
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.1/data/ip'.
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:12 . Memory (MB): peak = 1016.172 ; gain = 0.000
 update_compile_order -fileset sources_1
-update_compile_order -fileset sim_1
-launch_simulation
-Command: launch_simulation 
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [SIM-utils-54] Inspecting design source files for 'register_test' in fileset 'sim_1'...
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim'
-"xvlog --incr --relax -prj register_test_vlog.prj"
-INFO: [Common 17-41] Interrupt caught. Command should exit soon.
-INFO: [Common 17-344] 'run_program' was cancelled
-INFO: [Vivado 12-5357] 'compile' step aborted
-INFO: [Common 17-344] 'launch_simulation' was cancelled
-launch_simulation
-Command: launch_simulation 
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [SIM-utils-54] Inspecting design source files for 'register_test' in fileset 'sim_1'...
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim'
-"xvlog --incr --relax -prj register_test_vlog.prj"
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/register.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module register
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/register_test.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module register_test
-INFO: [VRFC 10-2458] undeclared symbol Q_t, assumed default net type wire [C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/register_test.sv:34]
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl
-INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
-INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim'
-"xelab -wto 950925ce97e34d7a8451f302256f8ef6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot register_test_behav xil_defaultlib.register_test xil_defaultlib.glbl -log elaborate.log"
-Vivado Simulator 2020.1
-Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
-Running: C:/XilinxVitis/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 950925ce97e34d7a8451f302256f8ef6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot register_test_behav xil_defaultlib.register_test xil_defaultlib.glbl -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-Pass Through NonSizing Optimizer
-WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 4 for port 'Q' [C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/register_test.sv:34]
-Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.register(N=4)
-Compiling module xil_defaultlib.register_test
-Compiling module xil_defaultlib.glbl
-Built simulation snapshot register_test_behav
+launch_runs synth_1 -jobs 4
+[Thu Oct 22 18:33:16 2020] Launched synth_1...
+Run output will be captured here: C:/Users/aajos/Documents/GitHub/Lab09/Lab09/Lab09.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Thu Oct 22 18:34:58 2020] Launched impl_1...
+Run output will be captured here: C:/Users/aajos/Documents/GitHub/Lab09/Lab09/Lab09.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Oct 22 18:36:53 2020] Launched impl_1...
+Run output will be captured here: C:/Users/aajos/Documents/GitHub/Lab09/Lab09/Lab09.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
 
-****** Webtalk v2020.1 (64-bit)
-  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
-  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+****** Xilinx hw_server v2020.1.1
+  **** Build date : Aug  5 2020 at 23:32:11
     ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 
-source C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim/xsim.dir/register_test_behav/webtalk/xsim_webtalk.tcl -notrace
-INFO: [Common 17-206] Exiting Webtalk at Thu Oct 22 11:43:13 2020...
-run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 1082.473 ; gain = 0.000
-INFO: [USF-XSim-69] 'elaborate' step finished in '11' seconds
-INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim'
-INFO: [USF-XSim-98] *** Running xsim
-   with args "register_test_behav -key {Behavioral:sim_1:Functional:register_test} -tclbatch {register_test.tcl} -log {simulate.log}"
-INFO: [USF-XSim-8] Loading simulator feature
-Vivado Simulator 2020.1
-Time resolution is 1 ps
-source register_test.tcl
-# set curr_wave [current_wave_config]
-# if { [string length $curr_wave] == 0 } {
-#   if { [llength [get_objects]] > 0} {
-#     add_wave /
-#     set_property needs_save false [current_wave_config]
-#   } else {
-#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
-#   }
-# }
-# run 1000ns
-$finish called at time : 55 ns : File "C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/register_test.sv" Line 54
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'register_test_behav' loaded.
-INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:18 . Memory (MB): peak = 1082.473 ; gain = 0.000
-close_sim
-INFO: [Simtcl 6-16] Simulation closed
-launch_simulation
-Command: launch_simulation 
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [SIM-utils-54] Inspecting design source files for 'register_test' in fileset 'sim_1'...
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim'
-"xvlog --incr --relax -prj register_test_vlog.prj"
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/register.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module register
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/register_test.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module register_test
-INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
-INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim'
-"xelab -wto 950925ce97e34d7a8451f302256f8ef6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot register_test_behav xil_defaultlib.register_test xil_defaultlib.glbl -log elaborate.log"
-Vivado Simulator 2020.1
-Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
-Running: C:/XilinxVitis/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 950925ce97e34d7a8451f302256f8ef6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot register_test_behav xil_defaultlib.register_test xil_defaultlib.glbl -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-Pass Through NonSizing Optimizer
-Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.register(N=4)
-Compiling module xil_defaultlib.register_test
-Compiling module xil_defaultlib.glbl
-Built simulation snapshot register_test_behav
-INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
-INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim'
-INFO: [USF-XSim-98] *** Running xsim
-   with args "register_test_behav -key {Behavioral:sim_1:Functional:register_test} -tclbatch {register_test.tcl} -log {simulate.log}"
-INFO: [USF-XSim-8] Loading simulator feature
-Vivado Simulator 2020.1
-Time resolution is 1 ps
-source register_test.tcl
-# set curr_wave [current_wave_config]
-# if { [string length $curr_wave] == 0 } {
-#   if { [llength [get_objects]] > 0} {
-#     add_wave /
-#     set_property needs_save false [current_wave_config]
-#   } else {
-#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
-#   }
-# }
-# run 1000ns
-$finish called at time : 55 ns : File "C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/register_test.sv" Line 54
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'register_test_behav' loaded.
-INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 1082.473 ; gain = 0.000
-close_sim
-INFO: [Simtcl 6-16] Simulation closed
-close [ open C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/alu.sv w ]
-add_files C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/alu.sv
-update_compile_order -fileset sources_1
-set_property SOURCE_SET sources_1 [get_filesets sim_1]
-close [ open C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/alu_test.sv w ]
-add_files -fileset sim_1 C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/alu_test.sv
-update_compile_order -fileset sim_1
-launch_simulation
-Command: launch_simulation 
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [SIM-utils-54] Inspecting design source files for 'register_test' in fileset 'sim_1'...
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim'
-"xvlog --incr --relax -prj register_test_vlog.prj"
-INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
-INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim'
-"xelab -wto 950925ce97e34d7a8451f302256f8ef6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot register_test_behav xil_defaultlib.register_test xil_defaultlib.glbl -log elaborate.log"
-Vivado Simulator 2020.1
-Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
-Running: C:/XilinxVitis/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 950925ce97e34d7a8451f302256f8ef6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot register_test_behav xil_defaultlib.register_test xil_defaultlib.glbl -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-Pass Through NonSizing Optimizer
-Completed static elaboration
-INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
-INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
-INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim'
-INFO: [USF-XSim-98] *** Running xsim
-   with args "register_test_behav -key {Behavioral:sim_1:Functional:register_test} -tclbatch {register_test.tcl} -log {simulate.log}"
-INFO: [USF-XSim-8] Loading simulator feature
-Vivado Simulator 2020.1
-Time resolution is 1 ps
-source register_test.tcl
-# set curr_wave [current_wave_config]
-# if { [string length $curr_wave] == 0 } {
-#   if { [llength [get_objects]] > 0} {
-#     add_wave /
-#     set_property needs_save false [current_wave_config]
-#   } else {
-#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
-#   }
-# }
-# run 1000ns
-$finish called at time : 55 ns : File "C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/register_test.sv" Line 54
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'register_test_behav' loaded.
-INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1082.473 ; gain = 0.000
-close_sim
-INFO: [Simtcl 6-16] Simulation closed
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+****** Xilinx cs_server v2020.1.0
+  **** Build date : May 13 2020-20:10:29
+    ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:02 ; elapsed = 00:00:18 . Memory (MB): peak = 1016.172 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A4D76DA
+open_hw_target: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2231.594 ; gain = 1215.422
+set_property PROGRAM.FILE {C:/Users/aajos/Documents/GitHub/Lab09/Lab09/Lab09.runs/impl_1/top_lab9.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/aajos/Documents/GitHub/Lab09/Lab09/Lab09.runs/impl_1/top_lab9.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A4D76DA
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A4D76DA
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210183A4D76DA
+close_hw_manager
 set_property top alu_test [get_filesets sim_1]
 set_property top_lib xil_defaultlib [get_filesets sim_1]
 update_compile_order -fileset sim_1
 launch_simulation
 Command: launch_simulation 
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/aajos/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim'
 INFO: [SIM-utils-51] Simulation object is 'sim_1'
 INFO: [SIM-utils-54] Inspecting design source files for 'alu_test' in fileset 'sim_1'...
 INFO: [USF-XSim-97] Finding global include files...
 INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
 INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/aajos/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim'
 "xvlog --incr --relax -prj alu_test_vlog.prj"
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/alu.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/aajos/Documents/GitHub/Lab09/systemverilogcode/alu.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module alu
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/alu_test.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/aajos/Documents/GitHub/Lab09/systemverilogcode/alu_test.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module alu_test
-INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/aajos/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
 INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/aajos/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim'
 "xelab -wto 950925ce97e34d7a8451f302256f8ef6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot alu_test_behav xil_defaultlib.alu_test xil_defaultlib.glbl -log elaborate.log"
-Vivado Simulator 2020.1
+Vivado Simulator 2020.1.1
 Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
-Running: C:/XilinxVitis/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 950925ce97e34d7a8451f302256f8ef6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot alu_test_behav xil_defaultlib.alu_test xil_defaultlib.glbl -log elaborate.log 
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 950925ce97e34d7a8451f302256f8ef6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot alu_test_behav xil_defaultlib.alu_test xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 8 for port 'in0' [C:/Users/aajos/Documents/GitHub/Lab09/systemverilogcode/alu_test.sv:31]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 8 for port 'in1' [C:/Users/aajos/Documents/GitHub/Lab09/systemverilogcode/alu_test.sv:32]
+WARNING: [VRFC 10-3091] actual bit length 2 differs from formal bit length 8 for port 'out' [C:/Users/aajos/Documents/GitHub/Lab09/systemverilogcode/alu_test.sv:34]
 Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis
@@ -251,21 +112,14 @@ Compiling module xil_defaultlib.alu
 Compiling module xil_defaultlib.alu_test
 Compiling module xil_defaultlib.glbl
 Built simulation snapshot alu_test_behav
-
-****** Webtalk v2020.1 (64-bit)
-  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
-  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
-
-source C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim/xsim.dir/alu_test_behav/webtalk/xsim_webtalk.tcl -notrace
-INFO: [Common 17-206] Exiting Webtalk at Thu Oct 22 12:39:55 2020...
-INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 2285.762 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
 INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/aajos/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim'
 INFO: [USF-XSim-98] *** Running xsim
    with args "alu_test_behav -key {Behavioral:sim_1:Functional:alu_test} -tclbatch {alu_test.tcl} -log {simulate.log}"
 INFO: [USF-XSim-8] Loading simulator feature
-Vivado Simulator 2020.1
+Vivado Simulator 2020.1.1
 Time resolution is 1 ps
 source alu_test.tcl
 # set curr_wave [current_wave_config]
@@ -278,117 +132,34 @@ source alu_test.tcl
 #   }
 # }
 # run 1000ns
-$finish called at time : 60 ns : File "C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/alu_test.sv" Line 44
+$finish called at time : 60 ns : File "C:/Users/aajos/Documents/GitHub/Lab09/systemverilogcode/alu_test.sv" Line 44
+xsim: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 2453.797 ; gain = 154.066
 INFO: [USF-XSim-96] XSim completed. Design snapshot 'alu_test_behav' loaded.
 INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:10 . Memory (MB): peak = 1082.473 ; gain = 0.000
-close_sim
-INFO: [Simtcl 6-16] Simulation closed
-close [ open C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/top_lab9.sv w ]
-add_files C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/top_lab9.sv
-update_compile_order -fileset sources_1
-update_compile_order -fileset sources_1
-set_property SOURCE_SET sources_1 [get_filesets sim_1]
-add_files -fileset sim_1 -norecurse C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/basys3_lab9.sv
-update_compile_order -fileset sim_1
-set_property top basys3_lab9 [get_filesets sim_1]
-set_property top_lib xil_defaultlib [get_filesets sim_1]
-update_compile_order -fileset sim_1
-launch_simulation
-Command: launch_simulation 
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [SIM-utils-54] Inspecting design source files for 'basys3_lab9' in fileset 'sim_1'...
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim'
-"xvlog --incr --relax -prj basys3_lab9_vlog.prj"
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/top_lab9.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module top_lab9
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/basys3_lab9.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module basys3_lab9
-INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
-INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim'
-"xelab -wto 950925ce97e34d7a8451f302256f8ef6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot basys3_lab9_behav xil_defaultlib.basys3_lab9 xil_defaultlib.glbl -log elaborate.log"
-Vivado Simulator 2020.1
-Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
-Running: C:/XilinxVitis/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 950925ce97e34d7a8451f302256f8ef6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot basys3_lab9_behav xil_defaultlib.basys3_lab9 xil_defaultlib.glbl -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-Pass Through NonSizing Optimizer
-WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 2 for port 'in0' [C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/top_lab9.sv:45]
-WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 2 for port 'in1' [C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/top_lab9.sv:46]
-WARNING: [VRFC 10-3091] actual bit length 8 differs from formal bit length 2 for port 'out' [C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/top_lab9.sv:48]
-Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.register(N=8)
-Compiling module xil_defaultlib.alu
-Compiling module xil_defaultlib.top_lab9
-Compiling module xil_defaultlib.basys3_lab9
-Compiling module xil_defaultlib.glbl
-Built simulation snapshot basys3_lab9_behav
-
-****** Webtalk v2020.1 (64-bit)
-  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
-  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
-    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
-
-source C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim/xsim.dir/basys3_lab9_behav/webtalk/xsim_webtalk.tcl -notrace
-INFO: [Common 17-206] Exiting Webtalk at Thu Oct 22 12:50:30 2020...
-INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
-INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim'
-INFO: [USF-XSim-98] *** Running xsim
-   with args "basys3_lab9_behav -key {Behavioral:sim_1:Functional:basys3_lab9} -tclbatch {basys3_lab9.tcl} -log {simulate.log}"
-INFO: [USF-XSim-8] Loading simulator feature
-Vivado Simulator 2020.1
-Time resolution is 1 ps
-source basys3_lab9.tcl
-# set curr_wave [current_wave_config]
-# if { [string length $curr_wave] == 0 } {
-#   if { [llength [get_objects]] > 0} {
-#     add_wave /
-#     set_property needs_save false [current_wave_config]
-#   } else {
-#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
-#   }
-# }
-# run 1000ns
-$finish called at time : 100 ns : File "C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/basys3_lab9.sv" Line 72
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'basys3_lab9_behav' loaded.
-INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 1093.176 ; gain = 8.570
+launch_simulation: Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 2453.887 ; gain = 168.125
 close_sim
 INFO: [Simtcl 6-16] Simulation closed
 launch_simulation
 Command: launch_simulation 
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/aajos/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim'
 INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [SIM-utils-54] Inspecting design source files for 'basys3_lab9' in fileset 'sim_1'...
+INFO: [SIM-utils-54] Inspecting design source files for 'alu_test' in fileset 'sim_1'...
 INFO: [USF-XSim-97] Finding global include files...
 INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
 INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim'
-"xvlog --incr --relax -prj basys3_lab9_vlog.prj"
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/alu.sv" into library xil_defaultlib
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/aajos/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj alu_test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/aajos/Documents/GitHub/Lab09/systemverilogcode/alu.sv" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module alu
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/register.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module register
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/top_lab9.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module top_lab9
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/basys3_lab9.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module basys3_lab9
-INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/aajos/Documents/GitHub/Lab09/systemverilogcode/alu_test.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu_test
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
 INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim'
-"xelab -wto 950925ce97e34d7a8451f302256f8ef6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot basys3_lab9_behav xil_defaultlib.basys3_lab9 xil_defaultlib.glbl -log elaborate.log"
-Vivado Simulator 2020.1
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/aajos/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim'
+"xelab -wto 950925ce97e34d7a8451f302256f8ef6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot alu_test_behav xil_defaultlib.alu_test xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.1.1
 Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
-Running: C:/XilinxVitis/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 950925ce97e34d7a8451f302256f8ef6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot basys3_lab9_behav xil_defaultlib.basys3_lab9 xil_defaultlib.glbl -log elaborate.log 
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto 950925ce97e34d7a8451f302256f8ef6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot alu_test_behav xil_defaultlib.alu_test xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
@@ -396,21 +167,19 @@ Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.register(N=8)
 Compiling module xil_defaultlib.alu
-Compiling module xil_defaultlib.top_lab9
-Compiling module xil_defaultlib.basys3_lab9
+Compiling module xil_defaultlib.alu_test
 Compiling module xil_defaultlib.glbl
-Built simulation snapshot basys3_lab9_behav
-INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+Built simulation snapshot alu_test_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
 INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/abby_joseph1/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/aajos/Documents/GitHub/Lab09/Lab09/Lab09.sim/sim_1/behav/xsim'
 INFO: [USF-XSim-98] *** Running xsim
-   with args "basys3_lab9_behav -key {Behavioral:sim_1:Functional:basys3_lab9} -tclbatch {basys3_lab9.tcl} -log {simulate.log}"
+   with args "alu_test_behav -key {Behavioral:sim_1:Functional:alu_test} -tclbatch {alu_test.tcl} -log {simulate.log}"
 INFO: [USF-XSim-8] Loading simulator feature
-Vivado Simulator 2020.1
+Vivado Simulator 2020.1.1
 Time resolution is 1 ps
-source basys3_lab9.tcl
+source alu_test.tcl
 # set curr_wave [current_wave_config]
 # if { [string length $curr_wave] == 0 } {
 #   if { [llength [get_objects]] > 0} {
@@ -421,7 +190,11 @@ source basys3_lab9.tcl
 #   }
 # }
 # run 1000ns
-$finish called at time : 100 ns : File "C:/Users/abby_joseph1/Documents/GitHub/Lab09/systemverilogcode/basys3_lab9.sv" Line 72
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'basys3_lab9_behav' loaded.
+$finish called at time : 60 ns : File "C:/Users/aajos/Documents/GitHub/Lab09/systemverilogcode/alu_test.sv" Line 44
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'alu_test_behav' loaded.
 INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1100.180 ; gain = 0.000
+launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 2473.410 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 22 19:57:49 2020...

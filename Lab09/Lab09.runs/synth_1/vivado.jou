@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1.1 (64-bit)
+# SW Build 2960000 on Wed Aug  5 22:57:20 MDT 2020
+# IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
+# Start of session at: Thu Oct 22 18:33:21 2020
+# Process ID: 8560
+# Current directory: C:/Users/aajos/Documents/GitHub/Lab09/Lab09/Lab09.runs/synth_1
+# Command line: vivado.exe -log top_lab9.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_lab9.tcl
+# Log file: C:/Users/aajos/Documents/GitHub/Lab09/Lab09/Lab09.runs/synth_1/top_lab9.vds
+# Journal file: C:/Users/aajos/Documents/GitHub/Lab09/Lab09/Lab09.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source top_lab9.tcl -notrace
